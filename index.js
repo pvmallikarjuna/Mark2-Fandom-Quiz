@@ -1,5 +1,8 @@
 var readlineSync = require('readline-sync');
 
+var username = readlineSync.question("What is your name? ");
+console.log("Welocme "+username);
+
 
 let count = 0;
 var questionsArray = [
